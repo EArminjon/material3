@@ -53,10 +53,12 @@ class MyApp extends StatelessWidget {
           title: 'Material 3 App',
           themeMode: settings.data.themeMode,
           theme: ThemeData(
+            useMaterial3: true,
             colorSchemeSeed: settings.data.color,
             brightness: Brightness.light,
           ),
           darkTheme: ThemeData(
+            useMaterial3: true,
             colorSchemeSeed: settings.data.color,
             brightness: Brightness.dark,
           ),
